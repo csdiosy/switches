@@ -2,20 +2,16 @@
     <head>
         <title>Cím</title>
         <meta charset="UTF-8">
-        <script src="osszeg.js">
+        <script src="valogatas.js">
         </script>
     </head>
     <body>
-        <label>Első szám:
-            <input type="text" id="szam1" value="5" />
+        <label>Írd be a nap nevét:
+            <input type="text" id="het" value="" />
         </label><br />
-        <label>Második szám:
-            <input type="text" id="szam2" value="3" />
-        </label><br />
-        <label>Eredmény:
-            <input type="text" id="eredmeny" value="" />
-        </label> 
-        <button onclick="szamolj1()">Klikk</button>
-        <button onclick="szamolj()">Szamolas</button>
+        <button onclick="napkomment()">Beszólás</button>
+        <p id="beszolas"></p>
+
+
     </body>
 </html>
